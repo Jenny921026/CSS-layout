@@ -1,0 +1,254 @@
+ /* css初始化 */
+
+		  body,h1,h2,h3,h4,h5,h6,ul,dl,dd,p,div{
+				 padding: 0;
+				 margin: 0;
+		  }
+		  body,div,p,h1,h2,h3,h4,h5,h6,a,span{
+		  	    font-size: 12px;
+		  	    font-family: "宋体";
+		  }
+		  input{
+		  	 border: 0 none;         /* 边框去掉 */
+		  	 outline-style: none;    /* 去掉轮廓线 */
+	}
+
+.title1{
+	width:980px;
+	height: 62px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+
+.logo{
+	height:39px;
+	width: 179px;
+	float: left;
+	margin-top:20px;
+}
+
+.search{
+	margin-top:20px;
+	float: right;
+	/*width:198px; 不设置宽度*/
+	/*height:28px;*/
+	border:1px solid #e1e1e1;
+	
+}
+
+.search-text{
+	width:165px;
+	height:28px;
+	float:left;
+}
+
+.search .search-button{
+	width:32px;
+	height:31px;
+	float:left;
+	background: url("../images/search2.jpg");
+}
+
+.nav-title{
+	height:55px;
+	border:1px solid #E1E1E1;
+	background:url("../images/nav_bg.png") repeat;
+}
+
+.nav-title ul{
+	width:980px;
+	height:55px;
+	margin:0 auto;
+	line-height: 55px;
+}
+
+.nav-title li{
+	list-style: none;
+	float:left;
+	background:url("../images/nav_bg-line.png") no-repeat right top;
+}
+
+.nav-title li a{
+	text-decoration: none;   /*去掉a标签的下划线*/
+	padding: 0 20px;
+	color:#000;
+	font-weight: 700;	
+}
+
+.nav-title a:hover{
+	color:#7CB609;
+}
+
+ 
+.banner{
+	width:980px;
+	height:597px;
+	margin:0 auto;
+}
+
+.news{
+	height: 29px;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #FBFBFB;
+	margin-bottom:10px;
+	line-height: 29px;
+}
+
+.news1{
+	width:980px;
+	margin:0 auto;
+}
+
+.news-text{
+	float:left;
+}
+
+.news-logo{
+	float: right;
+	margin-top:4px;
+}
+
+.products{
+	width:980px;
+	height:224px;
+	margin:0 auto;
+	
+}
+
+.products-l{
+	width:310px;
+	height:224px;
+	border:1px solid #E4E4E4;
+	color:green;
+	float: left;
+	position: relative;
+}
+.public{
+	margin-top: 12px;
+	margin-left: 6px;
+	color:#7AB800;
+	}
+
+.public img{
+	vertical-align: middle;
+	}
+
+.picture-l{
+	width:205px;
+	height:160px;
+	position: absolute;
+	left:44px;
+	top:50px;
+}
+.l-sj{
+	position: absolute;
+	left: 40px;
+	top:120px;
+}
+.r-sj{
+	position: absolute;
+	right: 50px;
+	top:120px;
+}
+
+.products-m{
+	width:373px;
+	height:224px;
+	border:1px solid #E4E4E4;
+	float: left;
+	margin-left: 10px;
+}
+.products-m ul{
+	margin-top: 10px;
+	margin-left: 23px;
+	margin-right: 18px;
+}
+.products-m li {
+	list-style: none;
+	height: 27px;
+	line-height: 27px;
+	border-bottom: 1px dashed #DCDCDC;
+}
+.products-m a{
+	text-decoration: none;   /*去掉a标签的下划线*/
+	/*padding: 0 20px;*/
+	color:#666;
+}
+.products-m a.fcolor{
+	 color: red;
+	 font-weight: 700;
+	} 
+
+.products-r{
+	width:268px;
+	height:224px;
+	border:1px solid #E4E4E4;
+	float: right;
+}
+.p-r{
+	 height:12px;
+	 line-height: 12px;
+	 margin:10px 0 0 28px;
+	 border-left:3px solid #7AB800;
+	 padding-left: 6px;
+	 color:#666;
+}
+.p-rz{
+	margin:50px 0 0 10px;
+	color:#666;
+}
+
+.footer{
+	height: 302px;
+	background-color:#2D2D2D;
+	margin-top: 20px;
+	
+}
+
+.footer-m{
+	width:980px;
+	height: 220px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer-m dl{
+	float:left;
+	margin-left:80px;
+	margin-top: 20px;
+}
+
+dt{
+	 color: #C7C7C7;
+}
+
+dd{
+	color:  #707070;
+    margin-top: 10px;
+}
+
+.footer-r{
+	float: left;
+	margin: 0 0;
+	position: absolute;
+	right:0;
+	top:0;
+}
+
+.bottom{
+	height: 94px;
+    background-color:#2D2D2D;
+    border-top: 2px dashed #414141;
+	text-align: center;
+	clear:both;
+}
+
+.bottom p{
+    margin-top: 10px;
+}
+
+.bottom img{
+		margin-top:14px;
+}
